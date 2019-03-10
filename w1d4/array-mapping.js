@@ -3,8 +3,8 @@ var input = [
   { x: 12, y: 5 },
   { x: 8, y: 15 }
 ];
-var result = input.map(function(input) {
-  var squared = Math.pow(input.x, 2) + Math.pow(input.y, 2);
+var result = input.map(function(index) {
+  var squared = Math.pow(index.x, 2) + Math.pow(index.y, 2);
   return Math.sqrt(squared);
 });
 
