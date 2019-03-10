@@ -1,6 +1,6 @@
 // The second argument/parameter is expected to be a function
 function findWaldo(arr, found) {
-  arr.forEach(function findWaldo(arr, index) {
+  arr.forEach(function (arr, index) {
     if (arr === "Waldo") {
       var index = index
       found(index);   // execute callback
